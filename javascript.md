@@ -414,12 +414,12 @@ completetask(print); //passing function as a parameter
 
 
 ### **JSON** 
-    - JSON stands for Javascript object notation.
-    - It is starts with braces "{}".
-    - We use JSON object to transfer data from one application to another application.
-    - Just like array it contains elements with key value pair.
-    - Data into JSON always with double Qoute " ".
-    - Example
+- JSON stands for Javascript object notation.
+- It is starts with braces "{}".
+- We use JSON object to transfer data from one application to another application.
+- Just like array it contains elements with key value pair.
+- Data into JSON always with double Qoute " ".
+- Example
 ```js
             const a = {
             name : "AB devilliers",
