@@ -1,9 +1,9 @@
-Table of Content
+## **Table of Content**
 
-    - [LINUX](/linux.md)
+- [LINUX](/linux.md)
 
-    - [GIT](/git.md)
+- [GIT](/git.md)
 
-    - [WEB-DEVELOPMENT](/web-development.md)
+- [WEB-DEVELOPMENT](/web-development.md)
 
-    - [JAVASCRIPT](/javascript.md)
+- [JAVASCRIPT](/javascript.md)
