@@ -9,7 +9,7 @@ A version Control System is the tracking and managing changes to software code. 
 ### GIT Commands
 - We create first empty repository in our local system
     ```
-    git init . - git repository created
+    git init .  // git repository created
     ```
 - Then we check the git status.
     ```
@@ -20,9 +20,9 @@ A version Control System is the tracking and managing changes to software code. 
     ```
 - Then We add the untracked files
     ```
-    git add <name> - to add file into git repository
+    git add <name> // to add file into git repository
 	- to add something into file use cat >> <file> command.
-	git add . or * - added all the files
+	git add . or *  //added all the files
     ```
 - Which git shows the location of git
     ```
@@ -34,7 +34,7 @@ A version Control System is the tracking and managing changes to software code. 
     ```
 - we check the commit history by using this command
     ```
-    git log - prints all the committed ID's and status.
+    git log // prints all the committed ID's and status.
     ```
 - shows changes in the file after commit.
      ```
@@ -52,24 +52,24 @@ A version Control System is the tracking and managing changes to software code. 
 #### Branches in GIT
 - To check the current branch
     ```
-    git branch - pointing to current branch
+    git branch // pointing to current branch
 	    //(HEAD -> master) - head is like pointer and master is an branch
 	```
 - To create  a new branch we can do
     ```
-	git branch <name> - created new branch from master
+	git branch <name> // created new branch from master
 	```
 - To delete branch
     ```
-	git branch <name> -d/D- to delete branch
+	git branch <name> -d/D // to delete branch
     ```
-- To retrive the delted branch
+- To retrive the deleted branch
     ```
-    git checkout -- <deleted file> - To retrive deleted file
+    git checkout -- <deleted branch> 
     ```
 - We can jump from one branch to other by using
     ```
-    git checkout <name>     // - head pointing to the <name> branch
+    git checkout <name>     // head pointing to the <name> branch
 	```
 - revert all the files to the last commited state
     ```
@@ -87,15 +87,15 @@ A version Control System is the tracking and managing changes to software code. 
     ```
 - We can push the code to the origin then to any of the branch we connect.
     ```
-    git push origin master - push code to origin(link) at master (branch)
+    git push origin master //push code to origin(link) at master (branch)
     ```
 - To clone the existing Repository in our local system we use
     ```
-    git clone <remote repo url> -
+    git clone <remote repo url> 
     ```
 - To Fetch the origin to branch
     ```
-    git fetch origin <branch> -
+    git fetch origin <branch> 
     ```
 -  if we want to merge two branches first checkout branch then add <name> branch into the first branch
     ```
@@ -107,9 +107,9 @@ A version Control System is the tracking and managing changes to software code. 
     ```
 - We can pull the branch from Remote Repo.
     ```
-    git pull origin master - to pull branch from remote
+    git pull origin master // to pull branch from remote
     ```
 - to save the current state of working directory when we want to reverts the working directory to match the HEAD commit.
     ```
-    git stash -
+    git stash 
     ```
