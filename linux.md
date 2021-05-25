@@ -1,16 +1,16 @@
 # **LINUX**
 
-### HISTORY
+### **History**
 
 Bell-lab first introduce BSD(unix based os). Richard stallman first introudces free software foundation in 1985. It is godfather of free software.'firstly he introduce GNU. In 1990 Linus created own kernel for free and after that Richard and Linus created GNU-Linux OS.
 
-### What is LINUX?
+### **What is LINUX?**
 - Just like Windows, iOS, and Mac OS, Linux is an operating system. 
 - In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system.
 - An operating system is software that manages all of the hardware resources associated with your desktop or laptop.
 - To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldnt function.
 
-### COMMANDS
+### **Commands**
 
 - **ls**  -  list of all files and folders
 	- ls -l = files with details
@@ -84,7 +84,7 @@ Bell-lab first introduce BSD(unix based os). Richard stallman first introudces f
 
 - **ipinfo.io** - shows ip address of pc
 
-### FILE SYSTEM OF LINUX
+### **File System Of Linux**
 
 **start with root(/) file**
 
