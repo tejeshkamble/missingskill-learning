@@ -1,12 +1,12 @@
 # **GIT**
-### HISTORY
+### **History**
 Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Since 2005, Junio Hamano has been the core maintainer.
-### What is GIT
+### **What is GIT ?**
 Git is software for tracking changes in files, usually used for coordinating work. Its goals include speed, data integrity, and support for distributed, non-linear workflows. It is like tree system, files coordination and updates are stored simultaneously. mostly useful for software developers. files security is the most useful part for developers. 
-### What is Version Control System
+### **What is Version Control System ?**
 A version Control System is the tracking and managing changes to software code. Version control systems are software tools that help software teams manage changes to source code over time. 
 
-### GIT Commands
+### **GIT Commands**
 - We create first empty repository in our local system
     ```
     git init .  // git repository created
@@ -49,7 +49,7 @@ A version Control System is the tracking and managing changes to software code. 
 	Green - added content shows into green
     ```
     
-#### Branches in GIT
+#### **Branches in GIT**
 - To check the current branch
     ```
     git branch // pointing to current branch
@@ -80,7 +80,7 @@ A version Control System is the tracking and managing changes to software code. 
     git merge <branch name>
     ```
 
-#### Here we can Connect with existing Repository and pull the code, push the code
+#### **Here we can Connect with existing Repository and pull the code, push the code.**
 - To connect with existing repository
     ```
     git remote add origin <remote>
