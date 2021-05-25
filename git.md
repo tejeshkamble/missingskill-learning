@@ -49,7 +49,7 @@ A version Control System is the tracking and managing changes to software code. 
 	Green - added content shows into green
     ```
     
-####Branches in GIT
+#### Branches in GIT
 - To check the current branch
     ```
     git branch - pointing to current branch
