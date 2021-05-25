@@ -2,7 +2,7 @@
 # **BASIC BUILDING BLOCK OF WEB DEVELOPMENT**
 
 
-### IP(Internet Protocol) Address-
+### **IP(Internet Protocol) Address** 
 - IP Address is an identification of your local PC.
 - IP is unique to perticular server.
 - Every System has its unique IP Address.
@@ -27,7 +27,7 @@
 - **ipv6**
     - size is 128 bits
 
-### PORT
+### **Port**
 - Entry point for any application at exact address
 - It is basically use to run the various application on web.
     - 0 - 1023 = reserv port by systems
@@ -35,14 +35,14 @@
     - 49151 - 65635 = open ports
 - web port - 80 and 443 (HTTP and HTTPS)
 
-### DNS
+### **DNS**
 -  Maps domain name to IP address
 
-### DOMAIN -
+### **Domain** 
 - Domain names are human readable names to the specific application.
 - The organization which provides the Domain name is **ICANN**.
 
-### HTTP
+### **HTTP**
 - It stands for Hiper Text Transfer Protocol.
     - http = 80 : unsecure
     - https = 443   : Secure
@@ -76,14 +76,14 @@
 	    - 500 - Server problems 
 	    - 502 - Back end error
 
-### SOFTWARE LICENCE -
+### **Software License**
 - apache 2.0
 - MIT
 - BSD
 - GPL
 - Mozilla
 
-### DATABASE -
+### **Database**
 - RDBMS(Relational Database management System)
 	- Mysql
 	- PosgresSQl
@@ -94,7 +94,7 @@
 	- Cassendra
 	- NeoJS
 
-### CLOUD PROVIDERS -
+### **Cloud Providers** 
 - AWS
 - Vultr
 - Google Cloud
@@ -103,19 +103,19 @@
 - Linode
 - Heruko
 
-### Code Repository
+### **Code Repository**
 - Github
 - gitlab (open source)
 - Bitbucket
 - Etc
 
-### JIRA - Project Management Tool (Task, Stories)
+### **JIRA - Project Management Tool (Task, Stories)**
 - Google sheet
 - DOC
 - Asana
 
 
-#### Infrastructure -
+### **Infrastructure**
 - Dev (development)
 - UAT/Staging
 - Production System
