@@ -188,7 +188,7 @@ Javascript is programming language that used both on the client-side and server 
         console.log(stack);
     
         ```
-### **FUNCTION**
+### **Function**
 - A set of statements that perform a specific task. 
 - functions are reusable.
 	```js
@@ -411,6 +411,7 @@ completetask(print); //passing function as a parameter
 - **replace** - replace the value. having two parameters first is old element and second is new element.
 - **trim** - remove space from both the edges.
 - **substring** - taking substring from string or array.
+
 
 ### **JSON** 
     - JSON stands for Javascript object notation.
