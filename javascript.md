@@ -1,25 +1,26 @@
 # **JAVASCRIPT**
 
-### HISTORY
+### **History**
  company started netscape navigator first browser. from the concept netscape another language has been created right script. after that Microsoft came with own browser Internet Explorer. again due to compitition with Microsoft, netscape employee Brendon created another language Mocha. after that changed the name of Mocha to Javascript.in 1996 ECMA aquired and change name to ECMAScript (ES). ES 3.1 was rename as ES 5. In 2015 drawbacks of ES 5 has remove and came up with new version ES 6.
 
-#### Facts about JavaScript -
+### **Facts about JavaScript** -
 - In **Javascript** everything is an **Object**.
 - Type of **null** always return an Object
 - **+** operator  do the Addition and Concatination which is basically a tech debt in Javascript
 - **===** Do a equility check and value check.
 - Javascript have only single threaded operations
 
-### Why JavaScript
+### **Why JavaScript ?**
+Javascript is programming language that used both on the client-side and server side. It make us web pages interactive from both side. JavaScript provides interactivity to web pages in the browser.
 
-**Control Structure**  
-	- **if else** - Often used
-	- **for** - Abstraction
-	- **switch case** - Better ay available in javascript
-	- **while** - Normal use
-	- **do while** - Rarely use
+### **Control Structure**  
+- **if else** - Often used
+- **for** - Abstraction
+- **switch case** - Better ay available in javascript
+- **while** - Normal use
+- **do while** - Rarely use
 
-### Operators  
+### **Operators**  
 - **Arithmetics**
 	- +, -, *, /, %, ++, --, -=, *=, /=, ==
 - **Logical**
@@ -29,7 +30,7 @@
 - **ternary**
    - **? :** ((a+b === 1) ? c : d)
 
-### Variables
+### **Variables**
 - Javascript variables are dynamic in nature.
 - Javascript variables are containers.
 - Javascript decides variable type at runtime.
@@ -107,7 +108,7 @@
 - arr.length = last index + 1
 - **"_"** is allowed in key but **"-"** is not allowed.
 
-### SCOPE
+### **Scope**
 
 **Functional Scope**
 - In the fuction having its own working area known as fuctional scope.
@@ -136,7 +137,7 @@
 	}
 	```
 
-**Hoisting**
+### **Hoisting**
 -  In javascript at a runtime, variables declarations are moving at the top but assigning value are not moving at top in scope, is called as Hoisting.
 - Variables are always floating at top in javascript.
 - Example
@@ -154,63 +155,101 @@
 	let a;  //not hoisted
 	const b;    //not hoisted
     ```
-### Call by Value and Call by Reference
-**Call by Value**
-**Call by Reference**
+### **Call by Value and Call by Reference**
+- **Call by Value**
+    - In javascript value pass by itself, called as call by value or copy by value.
+    - Primitive types are call by value. 
+    - Example
+        ```js
+        function add(a , b){ //call by value
+            var c = a + b;
+            return c;
+        }
 
-### FUNCTION
-- A set of statements that perform a specific task.functions are reusable.
+        var a = 3;
+        var b = 4;
+        add(a , b); //pass by value
+        console.log("Addition", c);
+        ```
+- **Call by Reference**
+    - In javascript value having some location in memory and the reference is pointing to the value, is called as call by reference or copy by reference.
+    - Non-primitive values are call by reference.
+    - Example
+        ```js
+        var stack = {
+            node: 1,
+            php: 1,
+            go: 1,
+            es: [1,2,3,4,5]
+        }
+
+        var tech = stack;
+        tech.go = 10; //value pass by reference
+        console.log(stack);
+    
+        ```
+### **FUNCTION**
+- A set of statements that perform a specific task. 
+- functions are reusable.
 	```js
 	//Syntax,
 	function <fun_name>(){} //declaration
 	<fun_name>(); //calling function
     ```
 - Functions acts like variables
-- Container -
-- Hoisted -
-    - Example
+    - Container -
+        - Just like variable in javascript function also acts as a container.
+        - We can place data into the function.
+    
+    - Hoisted -
+        - Example
+            ```js
+            function fn(){
+                console.log("10");   
+            }
+
+            function outsidecall(){
+                console.log("print outside");
+                fn();   //print : print inside
+                function fn(){ //hoisted
+                    console.log("print inside");
+                }
+            }
+            outsidecall();
+            // 1st function call outside() it prints "print outside"
+            // then  fn function called get excecuted and hoisted. it prints ""print inside"
+            ```
+    -  Scope (Local and Global) -
         ```js
-        function fn(){
-            console.log("10");   
+        function fn() { //global
+            console.log("10")
         }
-        
-        function outsidecall(){
+        function outsidecall(){ //loca;
             console.log("print outside");
-            fn();   //print : print inside
-            function fn(){ //hoisted
+            fn();
+            function fn(){
                 console.log("print inside");
             }
         }
         outsidecall();
-        // 1st function call outside() it prints "print outside"
-        // then  fn function called get excecuted and hoisted. it prints ""print inside"
-      ```
--  Scope (Local and Global) -
-    ```js
-    function fn() { //global
-        console.log("10")
-    }
-    function outsidecall(){ //loca;
-        console.log("print outside");
-        fn();
+        ```
+    - Object -
+        - In javascript value is passing to the function and it will return a value.
+        - Functions are first class objects in javascript.
+        - Function having properties and methods just like object having it.
+        - Functions can be override.
+        - Function having 'this' keyword just like object.
+    - Override -
+        - Example
+        ```js
         function fn(){
-            console.log("print inside");
+        console.log("print fn");
         }
-    }
-    outsidecall();
-    ```
-- Object
-- Override -
-- Example
-    ```js
-    function fn(){
-      console.log("print fn");
-    }
-    function fn(){	//override and print
-        console.log("print fn2");
-    }
-    fn();
-    ```
+        function fn(){	//override and print
+            console.log("print fn2");
+        }
+        fn();
+        ```
 
 **Function first class citizen privilege**
 - Acts as an object
@@ -280,14 +319,14 @@ completetask(print); //passing function as a parameter
 	console.log(typeof executefn, executefn); //checking datatype of executefn
 ```
 
-### High Order Function
+### **High Order Function**
 - Any function taking function as a parameter and/or function returning function, called as High order function.
 
-### Pure Function  
+### **Pure Function**  
 - when passing parameter value return as it is called as pure function.
 - we do not modify parameter in function.
 
-### IIFE -
+### **IIFE** -
 - IIFE Stands for **Immediately Invoked Function Expression**.
 - It is also called as Self executing function expression.
 - It is an Anonymous function.
@@ -299,7 +338,7 @@ completetask(print); //passing function as a parameter
 		console.log("IIFE");
 	})();   //calling function
 	```
-### Inline Function
+### **Inline Function**
 - Function as a parameter and all expression of function inline and always a anonymous function.
 - Example,
     ```js
@@ -309,7 +348,7 @@ completetask(print); //passing function as a parameter
 		//expression
 	});
     ```
-### Arrow Function
+### **Arrow Function**
 - In Function assignment and expression insted of using **'function'** keyword we can use arrow.
 - Arrow function cannot get hoisted, because it is used for only assignment.
 - Only declaration of function get hoisted not a assignment.
@@ -335,7 +374,7 @@ completetask(print); //passing function as a parameter
 		}
 	```
 
-### Object Prototype -
+### **Object Prototype** -
 - Number
 - Boolean //no use of new keyword while creating object of boolean type
 - String
@@ -359,3 +398,33 @@ completetask(print); //passing function as a parameter
 - **includes** - returns true or false
 - **concat** - return concated array
 - **join** - return array into string
+
+**Object Methods**
+- **toString** - Return string
+- **valueOf** - Return primitive value of object
+
+**String Methods**
+- **toUpperCase** - convert string into uppercase letters
+- **toLowerCase** - convert string into lowercase letters
+- **split** - separates value of string and return array
+- **join** - join all array elements and return string
+- **replace** - replace the value. having two parameters first is old element and second is new element.
+- **trim** - remove space from both the edges.
+- **substring** - taking substring from string or array.
+
+### **JSON** 
+    - JSON stands for Javascript object notation.
+    - It is starts with braces "{}".
+    - We use JSON object to transfer data from one application to another application.
+    - Just like array it contains elements with key value pair.
+    - Data into JSON always with double Qoute " ".
+    - Example
+```js
+            const a = {
+            name : "AB devilliers",
+            country : "South Africa"
+        }
+        const jsonobj = JSON.stringify(a);
+        const obj = JSON.parse(jsonobj);
+        console.log(jsonobj);
+```
