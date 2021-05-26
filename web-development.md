@@ -119,3 +119,7 @@
 - Dev (development)
 - UAT/Staging
 - Production System
+
+
+
+![Web Development Components](\images\web_devs.jpg)

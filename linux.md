@@ -104,3 +104,8 @@ Bell-lab first introduce BSD(unix based os). Richard stallman first introudces f
 - **/proc** - system level configuration  
 - **/dev** - external devices get mounted
 - **/sbin** - system level third party commands are stored here
+
+
+
+
+![Linux Architecture](\images\linux.jpg)
