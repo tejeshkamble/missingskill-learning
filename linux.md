@@ -108,4 +108,4 @@ Bell-lab first introduce BSD(unix based os). Richard stallman first introudces f
 
 
 
-![Linux Architecture](\images\linux.jpg)
+<p><img src="images\linux.jpg"  width="800px"></p>

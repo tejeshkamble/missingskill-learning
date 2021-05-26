@@ -432,4 +432,4 @@ completetask(print); //passing function as a parameter
 
 
 
-![Javascript](\images\javascript.jpg)
+<p><img src="images\javascript.jpg"  width="800px"></p>

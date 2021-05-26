@@ -114,4 +114,4 @@ A version Control System is the tracking and managing changes to software code. 
     git stash 
     ```
 
-![Git Workflow](images\git.jpg)
+<p><img src="images\git.jpg"  width="800px"></p>
