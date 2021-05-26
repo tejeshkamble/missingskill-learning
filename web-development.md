@@ -122,4 +122,4 @@
 
 
 
-![Web Development Components](\images\web_devs.jpg)
+<p><img src="\images\web_devs.jpg"  width="300px"></p>
