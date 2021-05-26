@@ -122,4 +122,4 @@
 
 
 
-<p><img src="\images\web_devs.jpg"  width="300px"></p>
+<p><img src="images\web_devs.jpg"  width="600px"></p>
