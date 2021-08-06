@@ -80,9 +80,9 @@ Bell-lab first introduce BSD(unix based os). Richard stallman first introudces f
 - **wget** - takes data from browser and save into json file.
 - **man** - manual of commands
     - -a -  shows all folders/files and hidden folders/files also 
-- **clear** -  clear the terminal(ctrl L)
+- **clear** -  clear the terminal(ctrl L).
 
-- **ipinfo.io** - shows ip address of pc
+- **ipinfo.io** - shows ip address of pc.
 
 ### **File System Of Linux**
 
@@ -108,4 +108,4 @@ Bell-lab first introduce BSD(unix based os). Richard stallman first introudces f
 
 
 
-<p><img src="images\linux.jpg"  width="800px"></p>
+<p><img src="images\linux.jpg"  width="800px"></p>V
